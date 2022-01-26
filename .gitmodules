@@ -1,0 +1,23 @@
+[submodule "layers/poky"]
+	path = layers/poky
+	url = git://git.yoctoproject.org/poky
+	branch = dunfell
+[submodule "layers/meta-openembedded"]
+	path = layers/meta-openembedded
+	url = git://git.openembedded.org/meta-openembedded.git
+	branch = dunfell
+[submodule "layers/meta-python2.git"]
+	path = layers/meta-python2.git
+	url = git://git.openembedded.org/meta-python2.git
+	branch = dunfell
+[submodule "layers/meta-rockchip"]
+	path = layers/meta-rockchip
+	url = https://github.com/rockchip-linux/meta-rockchip.git
+	branch = yocto-next
+[submodule "layers/meta-balena"]
+	path = layers/meta-balena
+	url = https://github.com/balena-os/meta-balena.git
+	branch = 2.88.x
+[submodule "balena-yocto-scripts"]
+	path = balena-yocto-scripts
+	url = https://github.com/balena-os/balena-yocto-scripts.git
