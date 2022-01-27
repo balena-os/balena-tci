@@ -21,3 +21,14 @@
 [submodule "balena-yocto-scripts"]
 	path = balena-yocto-scripts
 	url = https://github.com/balena-os/balena-yocto-scripts.git
+[submodule "layers/meta-tci"]
+	path = layers/meta-tci
+	url = git@github.com:tci-development/meta-tci.git
+[submodule "layers/meta-rust"]
+	path = layers/meta-rust
+	url = https://github.com/meta-rust/meta-rust.git
+	branch = test-dunfell
+[submodule "layers/meta-python2"]
+	path = layers/meta-python2
+	url = git://git.openembedded.org/meta-python2.git
+	branch = dunfell
