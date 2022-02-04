@@ -12,10 +12,11 @@ DEVICE_SPECIFIC_SPACE = "24576"
 
 #BALENA_IMAGE_BOOTLOADER = "u-boot"
 #BALENA_BOOT_PARTITION_FILES_append = " \
-#    rk3288-evb-rk808-linux-4n-tci-rockchip-rk3288-tci.dtb
-#    zImage${KERNEL_INITRAMFS}-${MACHINE}.bin:/zImage \
-#    zImage-${KERNEL_DEVICETREE}:/firefly-rk3288.dtb \
-#    ${DEPLOY_DIR_IMAGE}/idbloader.img:/idbloader.img \
+#    rk3288-evb-rk808-linux-4n-tci.dtb:/dtb \
+#    zImage-4.4.154-rockchip-standard:/zImage \
+#    ${DEPLOY_DIR_IMAGE}/loader.bin:/dbloader.bin \
 #"
-#
+
 #IMAGE_INSTALL_append = " kernel-image-initramfs kernel-devicetree"
+
+BALENA_DISABLE_KERNEL_HEADERS = "1"
