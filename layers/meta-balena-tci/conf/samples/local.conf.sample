@@ -11,10 +11,10 @@ BALENA_STORAGE = "overlay2"
 OS_DEVELOPMENT = "1"
 
 # Initramfs
-INITRAMFS_IMAGE = ""
-INITRAMFS_IMAGE_BUNDLE = ""
-KERNEL_INITRAMFS = ""
-INITRAMFS_TASK = ""
+#INITRAMFS_IMAGE = ""
+#INITRAMFS_IMAGE_BUNDLE = ""
+#KERNEL_INITRAMFS = ""
+#INITRAMFS_TASK = ""
 
 # Set this to make build system generate balenahup bundles
 #RESINHUP ?= "yes"
