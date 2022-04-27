@@ -4,10 +4,9 @@ deviceTypesCommon = require '@resin.io/device-types/common'
 module.exports =
 	version: 1
 	slug: 'rockchip-rk3288-tci'
-	aliases: [ 'rockchip-rk3288-tci' ]
 	name: 'E04 rk3288'
 	arch: 'armv7hf'
-	state: 'released'
+	state: 'new'
 
 	instructions: commonImg.instructions
 
@@ -15,8 +14,6 @@ module.exports =
 		windows: 'https://www.balena.io/'
 		osx: 'https://www.balena.io/'
 		linux: 'https://www.balena.io/'
-
-	supportsBlink: true
 
 	yocto:
 		machine: 'rockchip-rk3288-tci'
