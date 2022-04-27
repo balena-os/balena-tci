@@ -1,10 +1,7 @@
-IMAGE_FSTYPES_append = " balenaos-img"
-
 IMAGE_CMD_balenaos-img_append () {
     dd conv=notrunc,fsync if=${DEPLOY_DIR_IMAGE}/idblock.img of=${BALENA_RAW_IMG} bs=512 seek=64
     dd conv=notrunc,fsync if=${DEPLOY_DIR_IMAGE}/uboot.img of=${BALENA_RAW_IMG} bs=512 seek=16384
     dd conv=notrunc,fsync if=${DEPLOY_DIR_IMAGE}/trust.img of=${BALENA_RAW_IMG} bs=512 seek=24576
-#    dd conv=notrunc,fsync if=${DEPLOY_DIR_IMAGE}/boot.img of=${BALENA_RAW_IMG} bs=512 seek=32768
 }
 
 # in KiB
