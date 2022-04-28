@@ -10,10 +10,6 @@
 	path = layers/meta-python2.git
 	url = git://git.openembedded.org/meta-python2.git
 	branch = dunfell
-[submodule "layers/meta-rockchip"]
-	path = layers/meta-rockchip
-	url = https://github.com/rockchip-linux/meta-rockchip.git
-	branch = yocto-next
 [submodule "layers/meta-balena"]
 	path = layers/meta-balena
 	url = https://github.com/balena-os/meta-balena.git
@@ -32,3 +28,6 @@
 	path = layers/meta-python2
 	url = git://git.openembedded.org/meta-python2.git
 	branch = dunfell
+[submodule "layers/meta-rockchip"]
+	path = layers/meta-rockchip
+	url = https://github.com/JeffyCN/meta-rockchip.git
