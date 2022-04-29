@@ -20,4 +20,4 @@
 	url = https://github.com/balena-os/poky
 [submodule "layers/meta-openembedded"]
 	path = layers/meta-openembedded
-	url = https://git.openembedded.org/meta-openembedded
+	url = https://github.com/openembedded/meta-openembedded.git
