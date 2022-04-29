@@ -1,8 +1,6 @@
 # Supported machines
 #MACHINE ?= "rockchip-rk3288-tci"
 
-BALENA_STORAGE = "overlay2"
-
 # More info meta-balena/README.md
 #TARGET_REPOSITORY ?= ""
 #TARGET_TAG ?= ""
