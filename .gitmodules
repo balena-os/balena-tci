@@ -1,7 +1,3 @@
-[submodule "layers/poky"]
-	path = layers/poky
-	url = git://git.yoctoproject.org/poky
-	branch = dunfell
 [submodule "layers/meta-openembedded"]
 	path = layers/meta-openembedded
 	url = git://git.openembedded.org/meta-openembedded.git
@@ -31,3 +27,6 @@
 [submodule "layers/meta-rockchip"]
 	path = layers/meta-rockchip
 	url = https://github.com/JeffyCN/meta-rockchip.git
+[submodule "layers/poky"]
+	path = layers/poky
+	url = https://github.com/balena-os/poky
