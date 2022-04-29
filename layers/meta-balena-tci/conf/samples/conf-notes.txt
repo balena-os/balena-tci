@@ -10,5 +10,5 @@
 Resin specific images available:
 	balena-image
 
-E04 rk3288                               : $ MACHINE=rockchip-rk3288-tci bitbake balena-image
+E04 rk3288 (NEW)                         : $ MACHINE=rockchip-rk3288-tci bitbake balena-image
 
