@@ -12,11 +12,10 @@ BBLAYERS ?= " \
     ${TOPDIR}/../layers/meta-openembedded/meta-filesystems \
     ${TOPDIR}/../layers/meta-openembedded/meta-networking \
     ${TOPDIR}/../layers/meta-openembedded/meta-python \
-    ${TOPDIR}/../layers/meta-python2 \
     ${TOPDIR}/../layers/meta-rockchip \
     ${TOPDIR}/../layers/meta-tci \
     ${TOPDIR}/../layers/meta-balena/meta-balena-common \
-    ${TOPDIR}/../layers/meta-balena/meta-balena-dunfell \
+    ${TOPDIR}/../layers/meta-balena/meta-balena-honister \
     ${TOPDIR}/../layers/meta-balena-tci \
     ${TOPDIR}/../layers/meta-rust \
     "

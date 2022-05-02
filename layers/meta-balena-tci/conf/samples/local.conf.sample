@@ -1,8 +1,6 @@
 # Supported machines
 #MACHINE ?= "rockchip-rk3288-tci"
 
-BALENA_STORAGE = "overlay2"
-
 # More info meta-balena/README.md
 #TARGET_REPOSITORY ?= ""
 #TARGET_TAG ?= ""
@@ -47,7 +45,7 @@ DISTRO ?= "resin-systemd"
 RM_OLD_IMAGE = "1"
 
 # Additional image features
-USER_CLASSES ?= "buildstats image-mklibs image-prelink"
+USER_CLASSES ?= "buildstats image-prelink"
 
 # By default disable interactive patch resolution (tasks will just fail instead):
 PATCHRESOLVE = "noop"
@@ -61,6 +59,6 @@ BB_DISKMON_DIRS = "\
     ABORT,${DL_DIR},100M,1K \
     ABORT,${SSTATE_DIR},100M,1K"
 
-CONF_VERSION = "1"
+CONF_VERSION = "2"
 
 HOSTTOOLS += "docker iptables"

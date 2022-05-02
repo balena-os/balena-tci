@@ -19,8 +19,8 @@ module.exports =
 		machine: 'rockchip-rk3288-tci'
 		image: 'balena-image'
 		fstype: 'balenaos-img'
-		version: 'yocto-dunfell'
-		deployArtifact: 'balena-image-e04-rk3288.balenaos-img'
+		version: 'yocto-honister'
+		deployArtifact: 'balena-image-rockchip-rk3288-tci.balenaos-img'
 		compressed: true
 
 	options: [ networkOptions.group ]
