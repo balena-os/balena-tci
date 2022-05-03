@@ -1,7 +1,5 @@
 inherit kernel-resin
 
-KERNEL_IMAGETYPES += "zImage"
-
 KERNEL_IMAGETYPES:remove = "${ROCKCHIP_KERNEL_IMAGES}"
 
 python () {
