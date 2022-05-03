@@ -1,4 +1,18 @@
 - commits:
+    - subject: Add bootloader hostOS update hooks
+      hash: d2defd1b6ab0f616cf36df1b96e70824269c1c8a
+      body: ""
+      footer:
+        Changelog-entry: Add bootloader hostOS update hooks
+        changelog-entry: Add bootloader hostOS update hooks
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+      nested: []
+  version: 2.98.12+rev1
+  title: "'hostapp-update-hooks: Add bootloader hooks'"
+  date: 2022-05-03T22:54:33.861Z
+- commits:
     - subject: Integrate board with meta-balena
       hash: 0e5de293e1e38ff04962c7a0f68ef82f55c85bb2
       body: |

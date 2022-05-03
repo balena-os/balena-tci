@@ -1,6 +1,11 @@
 # v2.98.7
 ## (2022-05-02)
 
+# v2.98.12+rev1
+## (2022-05-03)
+
+* Add bootloader hostOS update hooks [Florin Sarbu]
+
 # v2.98.12
 ## (2022-05-03)
 
