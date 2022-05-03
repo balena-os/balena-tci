@@ -1,6 +1,11 @@
 # v2.98.7
 ## (2022-05-02)
 
+# v2.98.12
+## (2022-05-03)
+
+* Integrate board with meta-balena [Florin Sarbu]
+
 # v2.98.7+rev1
 ## (2022-05-02)
 

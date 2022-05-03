@@ -1,4 +1,19 @@
 - commits:
+    - subject: Integrate board with meta-balena
+      hash: 0e5de293e1e38ff04962c7a0f68ef82f55c85bb2
+      body: |
+        This has been added here from the BSP with some changes
+      footer:
+        Changelog-entry: Integrate board with meta-balena
+        changelog-entry: Integrate board with meta-balena
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+      nested: []
+  version: 2.98.12
+  title: "'Switch git repos to https'"
+  date: 2022-05-03T22:32:44.247Z
+- commits:
     - subject: Update layers/meta-balena to e7c0e0a2afae478e1ee9e8dff18c1fa0d566360c
       hash: 1d20c75b3e1f277b3def7ca0a9342a562c3b470c
       body: Update layers/meta-balena
