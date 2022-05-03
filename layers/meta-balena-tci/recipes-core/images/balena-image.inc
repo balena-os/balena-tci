@@ -4,16 +4,13 @@ IMAGE_CMD:balenaos-img:append () {
     dd conv=notrunc,fsync if=${DEPLOY_DIR_IMAGE}/trust.img of=${BALENA_RAW_IMG} bs=512 seek=24576
 }
 
-# in KiB
-DEVICE_SPECIFIC_SPACE = "24576"
+# we need some space before our partitions in order to write the boot binaries, as per http://opensource.rock-chips.com/wiki_Boot_option#Boot_flow
+DEVICE_SPECIFIC_SPACE = "20480"
 
-#BALENA_IMAGE_BOOTLOADER = "u-boot"
-BALENA_BOOT_PARTITION_FILES:append = " \
-    rk3288-evb-rk808-linux-4n-tci.dtb:/dtb \
-    zImage:/zImage \
-    ${DEPLOY_DIR_IMAGE}/loader.bin:/dbloader.bin \
+# add the dtb and u-boot binaries to rootfs /boot directory
+IMAGE_INSTALL:append = " \
+    kernel-devicetree \
+    u-boot-bins \
 "
-
-#IMAGE_INSTALL:append = " kernel-image-initramfs kernel-devicetree"
 
 BALENA_DISABLE_KERNEL_HEADERS = "1"
