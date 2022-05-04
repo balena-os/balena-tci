@@ -1,4 +1,18 @@
 - commits:
+    - subject: Enhance rockchip-rk3288-tci flashing instructions
+      hash: 0fac45955483264606f8650c67b7120adfc0d207
+      body: ""
+      footer:
+        Changelog-entry: Enhance rockchip-rk3288-tci flashing instructions
+        changelog-entry: Enhance rockchip-rk3288-tci flashing instructions
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+      nested: []
+  version: 2.98.12+rev2
+  title: "'rockchip-rk3288-tci.coffee: Enhance flashing istructions'"
+  date: 2022-05-04T13:50:18.802Z
+- commits:
     - subject: Add bootloader hostOS update hooks
       hash: d2defd1b6ab0f616cf36df1b96e70824269c1c8a
       body: ""
