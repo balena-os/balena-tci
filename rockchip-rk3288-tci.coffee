@@ -2,9 +2,9 @@ deviceTypesCommon = require '@resin.io/device-types/common'
 { networkOptions, commonImg, instructions } = deviceTypesCommon
 
 INSTALL_FLASHTOOL = "Install <a href=https://github.com/rockchip-linux/rkdeveloptool>rkdeveloptool</a>."
-CHECK_MASKROM = "The assumption is that the board has an empty eMMC. Connect your board to your computer over the micro USB port and check the board is in maskrom mode: `sudo ./rkdeveloptool ld`"
-SET_TO_USBPLUG_MODE = "Use this <a href=https://github.com/balena-os/balena-tci/flashing_artifacts/loader.bin/>loader</a> to init DRAM and set into usbplug mode: `sudo ./rkdeveloptool db loader.bin`"
-FLASH_EMMC = "Write the OS to the internal MMC storage device: `sudo ./rkdeveloptool wl 0 <OS_image_downloaded_from_the_dashboard>`"
+CHECK_MASKROM = "The assumption is that the board has an empty eMMC. Connect your board to your computer over the micro USB port and check the board is in maskrom mode: <em>sudo ./rkdeveloptool ld</em>"
+SET_TO_USBPLUG_MODE = "Use this <a href=https://github.com/balena-os/balena-tci/blob/master/flashing_artifacts/loader.bin>loader</a> to init DRAM and set into usbplug mode: <em>sudo ./rkdeveloptool db loader.bin</em>"
+FLASH_EMMC = "Write the OS to the internal MMC storage device: <em>sudo ./rkdeveloptool wl 0 <OS_image_downloaded_from_the_dashboard></em>"
 
 module.exports =
 	version: 1
