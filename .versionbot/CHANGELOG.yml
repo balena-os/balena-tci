@@ -1,4 +1,30 @@
 - commits:
+    - subject: Downgrade to dunfell-23.0.12 in order to fix ssh'ing to the board
+      hash: 870f27d5d391224a3a541077aed4ff68309f0960
+      body: >
+        When we updated to Poky Honister that brought in glibc 2.34 and
+
+        openssh 8.7p1. This coupled with the older kernel we are running,
+
+        4.4.154, and also with the fact that we are running on armv7 hardware,
+
+        made openssh server kill incoming connections due to missing
+
+        syscall in the old kernel:
+
+
+        [pid  6206] --- SIGSYS {si_signo=SIGSYS, si_code=SYS_SECCOMP, si_call_addr=0xb6bc5e46, si_syscall=__NR_clock_gettime64, si_arch=AUDIT_ARCH_ARM} ---
+      footer:
+        Changelog-entry: Downgrade to dunfell-23.0.12 in order to fix ssh'ing to the board
+        changelog-entry: Downgrade to dunfell-23.0.12 in order to fix ssh'ing to the board
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+      nested: []
+  version: 2.98.12+rev3
+  title: "'Downgrade to dunfell-23.0.12'"
+  date: 2022-05-05T20:52:25.529Z
+- commits:
     - subject: Enhance rockchip-rk3288-tci flashing instructions
       hash: 0fac45955483264606f8650c67b7120adfc0d207
       body: ""
