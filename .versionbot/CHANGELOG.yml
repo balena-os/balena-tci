@@ -1,4 +1,30 @@
 - commits:
+    - subject: Fix ssh'ing to the board with dunfell
+      hash: c71aaca2e8e2487de2f333b210716bc2c524af3a
+      body: >
+        The old 4.4.154 kernel does not include the clock_nanosleep_time64
+
+        syscall so let's fix it in openssh by allowing it specifically
+
+        in the sandbox. This fixes sshd to not error out like this:
+
+
+        --- SIGSYS {si_signo=SIGSYS, si_code=SYS_SECCOMP, si_call_addr=0xb6c640a6, si_syscall=__NR_clock_nanosleep_time64, si_arch=AUDIT_ARCH_ARM} ---
+
+        --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=6857, si_uid=999, si_status=1, si_utime=2, si_stime=1} ---
+
+        write(2, "ssh_sandbox_violation: unexpecte"..., 100ssh_sandbox_violation: unexpected system call (arch:0x40000028,syscall:407 @ 0xb6c640a6) [preauth]
+      footer:
+        Changelog-entry: Fix ssh'ing to the board with dunfell
+        changelog-entry: Fix ssh'ing to the board with dunfell
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+      nested: []
+  version: 2.98.12+rev4
+  title: "'Fix openssh'"
+  date: 2022-05-05T22:35:50.930Z
+- commits:
     - subject: Downgrade to dunfell-23.0.12 in order to fix ssh'ing to the board
       hash: 870f27d5d391224a3a541077aed4ff68309f0960
       body: >
