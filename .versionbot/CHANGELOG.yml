@@ -1,4 +1,20 @@
 - commits:
+    - subject: Fix ssh'ing to the board by enabling ECDH algorithm
+      hash: 20172ad30d2a81b4e7e8aa480cb5ed26c7fdcbe2
+      body: |
+        Trying to ssh to the board fails with the last message being:
+        expecting SSH2_MSG_KEX_ECDH_REPLY
+      footer:
+        Changelog-entry: Fix ssh'ing to the board by enabling ECDH algorithm
+        changelog-entry: Fix ssh'ing to the board by enabling ECDH algorithm
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+      nested: []
+  version: 2.98.12+rev3
+  title: "'linux-tci_%.bbappend: Fix ssh by enabling ECDH algorithm'"
+  date: 2022-05-05T20:02:30.209Z
+- commits:
     - subject: Enhance rockchip-rk3288-tci flashing instructions
       hash: 0fac45955483264606f8650c67b7120adfc0d207
       body: ""
