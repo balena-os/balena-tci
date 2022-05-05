@@ -1,0 +1,13 @@
+Index: openssh-8.7p1/sandbox-seccomp-filter.c
+===================================================================
+--- openssh-8.7p1.orig/sandbox-seccomp-filter.c
++++ openssh-8.7p1/sandbox-seccomp-filter.c
+@@ -70,7 +70,7 @@
+ #include "xmalloc.h"
+ 
+ /* Linux seccomp_filter sandbox */
+-#define SECCOMP_FILTER_FAIL SECCOMP_RET_KILL
++#define SECCOMP_FILTER_FAIL SECCOMP_RET_DEBUG
+ 
+ /* Use a signal handler to emit violations when debugging */
+ #ifdef SANDBOX_SECCOMP_FILTER_DEBUG
