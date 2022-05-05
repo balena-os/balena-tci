@@ -30,7 +30,7 @@ module.exports =
 		machine: 'rockchip-rk3288-tci'
 		image: 'balena-image'
 		fstype: 'balenaos-img'
-		version: 'yocto-honister'
+		version: 'yocto-dunfell'
 		deployArtifact: 'balena-image-rockchip-rk3288-tci.balenaos-img'
 		compressed: true
 

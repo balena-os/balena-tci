@@ -1,1 +1,1 @@
-INSANE_SKIP:${PN} += "already-stripped"
+INSANE_SKIP_${PN} += "already-stripped"
