@@ -1,0 +1,27 @@
+From 69a9af7f47e0709f04069422a710baa1ae63c82b Mon Sep 17 00:00:00 2001
+From: Florin Sarbu <florin@balena.io>
+Date: Thu, 5 May 2022 17:08:51 +0200
+Subject: [PATCH] test
+
+Signed-off-by: Florin Sarbu <florin@balena.io>
+---
+ sysdeps/unix/sysv/linux/arm/arch-syscall.h | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/sysdeps/unix/sysv/linux/arm/arch-syscall.h b/sysdeps/unix/sysv/linux/arm/arch-syscall.h
+index 85c9b236ce..777de38c2a 100644
+--- a/sysdeps/unix/sysv/linux/arm/arch-syscall.h
++++ b/sysdeps/unix/sysv/linux/arm/arch-syscall.h
+@@ -27,7 +27,9 @@
+ #define __NR_clock_getres 264
+ #define __NR_clock_getres_time64 406
+ #define __NR_clock_gettime 263
++#if 0
+ #define __NR_clock_gettime64 403
++#endif
+ #define __NR_clock_nanosleep 265
+ #define __NR_clock_nanosleep_time64 407
+ #define __NR_clock_settime 262
+-- 
+2.17.1
+
