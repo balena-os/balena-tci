@@ -1,4 +1,4 @@
-IMAGE_CMD:balenaos-img:append () {
+IMAGE_CMD_balenaos-img_append () {
     dd conv=notrunc,fsync if=${DEPLOY_DIR_IMAGE}/idblock.img of=${BALENA_RAW_IMG} bs=512 seek=64
     dd conv=notrunc,fsync if=${DEPLOY_DIR_IMAGE}/uboot.img of=${BALENA_RAW_IMG} bs=512 seek=16384
     dd conv=notrunc,fsync if=${DEPLOY_DIR_IMAGE}/trust.img of=${BALENA_RAW_IMG} bs=512 seek=24576
@@ -8,7 +8,7 @@ IMAGE_CMD:balenaos-img:append () {
 DEVICE_SPECIFIC_SPACE = "20480"
 
 # add the dtb and u-boot binaries to rootfs /boot directory
-IMAGE_INSTALL:append = " \
+IMAGE_INSTALL_append = " \
     kernel-devicetree \
     u-boot-bins \
 "
