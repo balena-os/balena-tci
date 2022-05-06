@@ -1,4 +1,18 @@
 - commits:
+    - subject: Tidy up provisioning instructions
+      hash: 9f28f7ea6a732ef5f60cc58d935c584572c53daf
+      body: ""
+      footer:
+        Changelog-entry: Tidy up provisioning instructions
+        changelog-entry: Tidy up provisioning instructions
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+      nested: []
+  version: 2.98.12+rev5
+  title: "'rockchip-rk3288-tci.coffee: Tidy up provisioning instructions'"
+  date: 2022-05-06T14:55:25.512Z
+- commits:
     - subject: Fix ssh'ing to the board with dunfell
       hash: c71aaca2e8e2487de2f333b210716bc2c524af3a
       body: >
