@@ -10,6 +10,7 @@ DEVICE_SPECIFIC_SPACE = "20480"
 # add the dtb and u-boot binaries to rootfs /boot directory
 IMAGE_INSTALL_append = " \
     kernel-devicetree \
+    u-boot \
     u-boot-bins \
 "
 
