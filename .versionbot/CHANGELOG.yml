@@ -1,4 +1,19 @@
 - commits:
+    - subject: Fix missing u-boot binary in rootfs /boot directory
+      hash: 0b883792da33e28be6ccdcb0b30c79a0959f4973
+      body: |
+        This is needed for host OS update
+      footer:
+        Changelog-entry: Fix missing u-boot binary in rootfs /boot directory
+        changelog-entry: Fix missing u-boot binary in rootfs /boot directory
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+      nested: []
+  version: 2.98.12+rev6
+  title: "'Add missing uboot binary in rootfs'"
+  date: 2022-05-10T11:25:01.434Z
+- commits:
     - subject: Tidy up provisioning instructions
       hash: 9f28f7ea6a732ef5f60cc58d935c584572c53daf
       body: ""

@@ -1,6 +1,11 @@
 # v2.98.7
 ## (2022-05-02)
 
+# v2.98.12+rev6
+## (2022-05-10)
+
+* Fix missing u-boot binary in rootfs /boot directory [Florin Sarbu]
+
 # v2.98.12+rev5
 ## (2022-05-06)
 
