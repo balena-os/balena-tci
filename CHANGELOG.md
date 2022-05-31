@@ -1,6 +1,35 @@
 # v2.98.7
 ## (2022-05-02)
 
+# v2.98.12+rev7
+## (2022-05-31)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 8c132cde993d3a8d9e4eea2517edf27b53b47ef3 [Renovate Bot] </summary>
+
+> ## balena-yocto-scripts-1.19.6
+> ### (2022-05-24)
+> 
+> * balena-lib: Check versions before finalizing [Alex Gonzalez]
+> * balena-deploy-block: Do not always finalise on deploy [Alex Gonzalez]
+> * balena-deploy-block: Add OS version to contract [Alex Gonzalez]
+> * balena-deploy: Generate OS contract if not available [Alex Gonzalez]
+> * balena-lib: Build contracts [Alex Gonzalez]
+> * Add generate-oscontract script [Alex Gonzalez]
+> 
+> ## balena-yocto-scripts-1.19.5
+> ### (2022-05-19)
+> 
+> * jenkins_build: Finalize when required [Alex Gonzalez]
+> * balena-lib: Finalise release before tagging [Alex Gonzalez]
+> * balena-api: Add function to get final state of release [Alex Gonzalez]
+> * balena-lib: Extract release finalization as function [Alex Gonzalez]
+> * Update balena-cli version to latest [Alex Gonzalez]
+> * balena-deploy: Fix header on balena_deploy_block() [Alex Gonzalez]
+> 
+</details>
+
 # v2.98.12+rev6
 ## (2022-05-10)
 
