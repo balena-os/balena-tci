@@ -1,6 +1,13 @@
 # v2.98.7
 ## (2022-05-02)
 
+# v2.105.7
+## (2022-10-11)
+
+* replace meta-rust with meta-balena-rust [Alex Gonzalez]
+* Update layers/meta-balena to 0e762cf02f0bd8fa3aeb7e70569316d02fc1f982 [renovate[bot]]
+* Modify layer ordering [Alex Gonzalez]
+
 # v2.98.12+rev14
 ## (2022-08-23)
 

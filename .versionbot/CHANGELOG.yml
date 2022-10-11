@@ -1,4 +1,39 @@
 - commits:
+    - subject: replace meta-rust with meta-balena-rust
+      hash: 6319a249ad4b4e15a7b4b6d09c20eee00323e9f8
+      body: |
+        balenaOS now unifies Rust toolchain versions using meta-balena-rust.
+      footer:
+        Changelog-entry: replace meta-rust with meta-balena-rust
+        changelog-entry: replace meta-rust with meta-balena-rust
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+    - subject: Update layers/meta-balena to 0e762cf02f0bd8fa3aeb7e70569316d02fc1f982
+      hash: f15074dc5ccae1a396cfd4bfb9777e02981ffe32
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 0e762cf02f0bd8fa3aeb7e70569316d02fc1f982
+        changelog-entry: Update layers/meta-balena to 0e762cf02f0bd8fa3aeb7e70569316d02fc1f982
+      author: renovate[bot]
+      nested: []
+    - subject: Modify layer ordering
+      hash: da7d4f21d39d903cc93393c7f0be739249e82255
+      body: |
+        Yocto classes and conf files ignore layer priorities and are parsed
+        in order instead.
+      footer:
+        Changelog-entry: Modify layer ordering
+        changelog-entry: Modify layer ordering
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+  version: 2.105.7
+  title: "'Update layers/meta-balena digest to 67d6a39'"
+  date: 2022-10-11T14:32:49.185Z
+- commits:
     - subject: Update balena-yocto-scripts to 99807501efffc8c5034c88361049650a02511a78
       hash: fa2ce70ce970c1a7ddc4ace8f8f9d0b7c1040cce
       body: Update balena-yocto-scripts
