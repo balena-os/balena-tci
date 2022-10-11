@@ -8,10 +8,6 @@
 [submodule "layers/meta-tci"]
 	path = layers/meta-tci
 	url = https://github.com/tci-development/meta-tci.git
-[submodule "layers/meta-rust"]
-	path = layers/meta-rust
-	url = https://github.com/meta-rust/meta-rust.git
-	branch = test-dunfell
 [submodule "layers/meta-rockchip"]
 	path = layers/meta-rockchip
 	url = https://github.com/JeffyCN/meta-rockchip.git
