@@ -1,6 +1,11 @@
 # v2.98.7
 ## (2022-05-02)
 
+# v2.105.7+rev7
+## (2022-12-28)
+
+* remove branch specification from meta-balena submodule [Alex Gonzalez]
+
 # v2.105.7+rev6
 ## (2022-12-23)
 

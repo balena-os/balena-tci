@@ -1,4 +1,22 @@
 - commits:
+    - subject: remove branch specification from meta-balena submodule
+      hash: 8d3e30b6ad77b742476aa9cf3a01b860f783479e
+      body: >
+        This prevents meta-balena from updating automatically for this repository.
+
+
+        ESR releases are managed with independent branches.
+      footer:
+        Changelog-entry: remove branch specification from meta-balena submodule
+        changelog-entry: remove branch specification from meta-balena submodule
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+  version: 2.105.7+rev7
+  title: ""
+  date: 2022-12-28T14:14:06.587Z
+- commits:
     - subject: Update balena-yocto-scripts to 0f1d0265bbabdb2b869f6cf9363d418b52681ffc
       hash: 793dd20b40ab412e9b9deab4cfc8a320165cb22f
       body: Update balena-yocto-scripts
