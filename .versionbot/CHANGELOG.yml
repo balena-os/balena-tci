@@ -1,4 +1,20 @@
 - commits:
+    - subject: Add ESR workflow
+      hash: 7c16b69011603572f45d38dbb523e76949ad259b
+      body: |
+        This workflow runs every quarter and creates an ESR release for this
+        device type.
+      footer:
+        Changelog-entry: Add ESR workflow
+        changelog-entry: Add ESR workflow
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+  version: 2.105.7+rev9
+  title: ""
+  date: 2023-01-13T14:53:40.134Z
+- commits:
     - subject: Update balena-yocto-scripts to 56bb055d91481023a6b6cff92d61ebfffa884139
       hash: 081dedda904a82eafc452dfe1192450734245095
       body: Update balena-yocto-scripts
