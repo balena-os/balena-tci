@@ -1,6 +1,11 @@
 # v2.98.7
 ## (2022-05-02)
 
+# v2.105.7+rev10
+## (2023-01-26)
+
+* add meta-perl to bblayers.conf [Alex Gonzalez]
+
 # v2.105.7+rev9
 ## (2023-01-13)
 
