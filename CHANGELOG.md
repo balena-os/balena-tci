@@ -1,6 +1,21 @@
 # v2.98.7
 ## (2022-05-02)
 
+# v2.112.5
+## (2023-02-16)
+
+
+<details>
+<summary> Update layers/meta-balena to beb261875db907bcfa9ad8604100860c362d9ebe [Renovate Bot] </summary>
+
+> ## meta-balena-2.112.5
+> ### (2023-02-16)
+> 
+> * grub: Add chain module to support multiboot [Alex Gonzalez]
+> 
+
+</details>
+
 # v2.112.4
 ## (2023-02-15)
 
