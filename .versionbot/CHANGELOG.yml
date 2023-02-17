@@ -1,4 +1,61 @@
 - commits:
+    - subject: Update layers/meta-balena to 70d37200e8af95b6a784ead0682708c7e7f3acfb
+      hash: a62dd2320653ac3af641ef23a057e0567c5f5dca
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 70d37200e8af95b6a784ead0682708c7e7f3acfb
+        changelog-entry: Update layers/meta-balena to 70d37200e8af95b6a784ead0682708c7e7f3acfb
+      author: Renovate Bot
+      nested:
+        - commits:
+            - subject: Update balena-supervisor to v14.9.1
+              hash: c9ea12209bd6427234012a624304439ff32ddb62
+              body: |
+                Update balena-supervisor from 14.9.0 to 14.9.1
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Renovate Bot
+              nested:
+                - commits:
+                    - subject: Always lower case the cpu id to avoid bouncing between casing when
+                        reporting
+                      hash: d356f979d3addbf8b08933694b9e80f66af8d9e2
+                      body: ""
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Pagan Gazzard
+                      nested: []
+                  version: balena-supervisor-14.9.1
+                  title: ""
+                  date: 2023-02-15T14:13:57.161Z
+          version: meta-balena-2.112.8
+          title: ""
+          date: 2023-02-17T11:27:28.794Z
+        - commits:
+            - subject: "renovate: Only consider github releases when bumping engine"
+              hash: 3793f39f0081e2e7a4d3ce38a206771e618faf20
+              body: |
+                The engine is currently versioned in such a way that upstream
+                semver tags are added to branches before merging to master.
+
+                We don't want to try and pin to those commits so only
+                consider automated GitHub Releases.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: meta-balena-2.112.7
+          title: ""
+          date: 2023-02-16T15:20:17.402Z
+  version: 2.112.8
+  title: ""
+  date: 2023-02-17T13:34:51.473Z
+- commits:
     - subject: Update layers/meta-balena to fd42070393600c11ae162b35f126b2632c3bb694
       hash: 5c188dc82ac220b81eb98dcd13c808e3377e231b
       body: Update layers/meta-balena
