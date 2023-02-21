@@ -1,6 +1,11 @@
 # v2.98.7
 ## (2022-05-02)
 
+# v2.112.12+rev1
+## (2023-02-21)
+
+* Update CI workflow to allow external contributions [Kyle Harding]
+
 # v2.112.12
 ## (2023-02-21)
 
