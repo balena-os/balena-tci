@@ -1,6 +1,77 @@
 # v2.98.7
 ## (2022-05-02)
 
+# v3.1.9+rev3
+## (2023-08-11)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 45e32821ac6e3efba81e24a21e417a375da5e154 [Self-hosted Renovate Bot] </summary>
+
+> ## balena-yocto-scripts-1.19.34
+> ### (2023-07-12)
+> 
+> * Remove all traces of --skip-discontinued [Florin Sarbu]
+> * barys: Remove documenting the --skip-discontinued option [Florin Sarbu]
+> 
+> ## balena-yocto-scripts-1.19.33
+> ### (2023-07-10)
+> 
+> * Update device-types package from v10.3.0 to v10.5.1 [Alex Gonzalez]
+> * barys: remove option to skip discontinued device types [Alex Gonzalez]
+> * balena-lib: remove balena_lib_get_dt_state [Alex Gonzalez]
+> * jenkins_build: remove discontinued device check [Alex Gonzalez]
+> * balena-deploy: remove discontinued check [Alex Gonzalez]
+> 
+> ## balena-yocto-scripts-1.19.32
+> ### (2023-06-19)
+> 
+> * balena-deploy: Newer meta-balena do not create a kernel_source tarball [Alex Gonzalez]
+> 
+> ## balena-yocto-scripts-1.19.31
+> ### (2023-06-05)
+> 
+> * balena-deploy: add a compressed licenses tarball to the deploy artifacts [Alex Gonzalez]
+> 
+> ## balena-yocto-scripts-1.19.30
+> ### (2023-05-23)
+> 
+> * generate_ami: opt-in secure boot when using signed images [Alex Gonzalez]
+> * balena-generate-ami: comply with default AMI quotas [Alex Gonzalez]
+> 
+> ## balena-yocto-scripts-1.19.29
+> ### (2023-05-19)
+> 
+> * balena-deploy: add secureBoot feature into contract [Alex Gonzalez]
+> 
+> ## balena-yocto-scripts-1.19.28
+> ### (2023-05-06)
+> 
+> * jenkins_build: accept bitbake extra arguments [Alex Gonzalez]
+> 
+> ## balena-yocto-scripts-1.19.27
+> ### (2023-04-21)
+> 
+> * barys: fix removal of equals sign from argval [Joseph Kogut]
+> 
+> ## balena-yocto-scripts-1.19.26
+> ### (2023-04-12)
+> 
+> * balena-lib: Do not return error if no balena user token is available [Alex Gonzalez]
+> 
+> ## balena-yocto-scripts-1.19.25
+> ### (2023-03-01)
+> 
+> * Dockerfile: yocto-build-env: update balenaCLI to 14.5.15 [Alex Gonzalez]
+> 
+> ## balena-yocto-scripts-1.19.24
+> ### (2023-02-28)
+> 
+> * balena-api: ignore quotes from API replies [Alex Gonzalez]
+> 
+
+</details>
+
 # v3.1.9+rev2
 ## (2023-08-11)
 
