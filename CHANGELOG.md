@@ -1,6 +1,11 @@
 # v2.98.7
 ## (2022-05-02)
 
+# v3.1.9+rev1
+## (2023-08-11)
+
+* Update balena-os/github-workflows to v0.0.21 [Self-hosted Renovate Bot]
+
 # v3.1.9
 ## (2023-08-11)
 

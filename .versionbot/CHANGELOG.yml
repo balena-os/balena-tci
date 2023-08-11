@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update balena-os/github-workflows to v0.0.21
+      hash: 486c8777b2f81994b2521802d53a281be1a28647
+      body: Update balena-os/github-workflows
+      footer:
+        Changelog-entry: Update balena-os/github-workflows to v0.0.21
+        changelog-entry: Update balena-os/github-workflows to v0.0.21
+      author: Self-hosted Renovate Bot
+      nested: []
+  version: 3.1.9+rev1
+  title: ""
+  date: 2023-08-11T12:29:18.103Z
+- commits:
     - subject: Hold wpa supplicant version for rockchip-rk3288-tci
       hash: 86c241062a6b25e2c57de6919456049e52ac854d
       body: |
