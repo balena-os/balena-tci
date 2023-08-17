@@ -1,4 +1,34 @@
 - commits:
+    - subject: Update layers/meta-balena to ec885550473b00b86e986f84bfd74f06a137fd24
+      hash: fb6b5ba6bd23bbdf4ffa505de6611ea3bb1e3109
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to ec885550473b00b86e986f84bfd74f06a137fd24
+        changelog-entry: Update layers/meta-balena to ec885550473b00b86e986f84bfd74f06a137fd24
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "meta-balena-thud: adapt migrate module dependencies"
+              hash: 5ff9a0c1077ef3c2ff3ff2a2ba678944fb0073a2
+              body: >
+                On Thud, the util-linux recipe had still not split components
+                into
+
+                different packages.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-3.2.1
+          title: ""
+          date: 2023-08-17T14:35:32.390Z
+  version: 3.2.1
+  title: ""
+  date: 2023-08-17T16:48:47.903Z
+- commits:
     - subject: Update layers/meta-balena to 87546c158a40798749c94fdab9355e3c39920490
       hash: cfc719288ebed0db486d04fed2549d82598f35b9
       body: Update layers/meta-balena
