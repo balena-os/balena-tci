@@ -1,6 +1,21 @@
 # v2.98.7
 ## (2022-05-02)
 
+# v5.1.2
+## (2023-12-21)
+
+
+<details>
+<summary> Update layers/meta-balena to a3b1dd7c9cb8bf593ead65b5c41d5977ad020ab7 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.1.2
+> ### (2023-12-21)
+> 
+> * balena-config-vars: increase config.json parsing resilience [Alex Gonzalez]
+> 
+
+</details>
+
 # v5.1.1
 ## (2023-12-20)
 
