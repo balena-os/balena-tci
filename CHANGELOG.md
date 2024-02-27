@@ -1,6 +1,23 @@
 # v2.98.7
 ## (2022-05-02)
 
+# v5.1.41
+## (2024-02-27)
+
+
+<details>
+<summary> Update layers/meta-balena to 61a61111139e34f6c2f5c2f096dfb65cc37405b4 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.1.41
+> ### (2024-02-27)
+> 
+> * tests: hup: use secondary antenna for revpi4 [rcooke-warwick]
+> * tests: cloud : use secondary antenna for revpi4 [rcooke-warwick]
+> * tests: os: use secondary antenna for revpi4 [rcooke-warwick]
+> 
+
+</details>
+
 # v5.1.40
 ## (2024-02-26)
 
