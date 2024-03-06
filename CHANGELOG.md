@@ -1,6 +1,21 @@
 # v2.98.7
 ## (2022-05-02)
 
+# v5.1.48
+## (2024-03-06)
+
+
+<details>
+<summary> Update layers/meta-balena to 6898f00e2d312aa468a44a98880882c31e81b26e [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.1.48
+> ### (2024-03-06)
+> 
+> * hostapp-update-hooks: Soft include balena-config-defaults [Michal Toman]
+> 
+
+</details>
+
 # v5.1.47+rev3
 ## (2024-03-05)
 
