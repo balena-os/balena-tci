@@ -1,6 +1,21 @@
 # v2.98.7
 ## (2022-05-02)
 
+# v5.1.50
+## (2024-03-07)
+
+
+<details>
+<summary> Update layers/meta-balena to bbe9d4c565bbb3b158de268ee0a77076504e5419 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.1.50
+> ### (2024-03-07)
+> 
+> * tests/device-tree: Rework to account for new form of setting dtoverlay in config.txt by the supervisor [Florin Sarbu]
+> 
+
+</details>
+
 # v5.1.49
 ## (2024-03-06)
 
