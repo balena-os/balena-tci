@@ -1,6 +1,21 @@
 # v2.98.7
 ## (2022-05-02)
 
+# v5.1.54+rev10
+## (2024-04-29)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 9467c78fa81511321fe952477b316e830742760c [Self-hosted Renovate Bot] </summary>
+
+> ## balena-yocto-scripts-1.21.8
+> ### (2024-04-29)
+> 
+> * Support commit tags when extracting version tag from git [Kyle Harding]
+> 
+
+</details>
+
 # v5.1.54+rev9
 ## (2024-04-26)
 
