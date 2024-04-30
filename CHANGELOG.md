@@ -1,6 +1,21 @@
 # v2.98.7
 ## (2022-05-02)
 
+# v5.1.54+rev11
+## (2024-04-30)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 019219edcbd508bdb1027bf56f20f8696fddba83 [Self-hosted Renovate Bot] </summary>
+
+> ## balena-yocto-scripts-1.21.9
+> ### (Invalid date)
+> 
+> * balena-lib: improve base tag detection [Alex Gonzalez]
+> 
+
+</details>
+
 # v5.1.54+rev10
 ## (2024-04-29)
 
