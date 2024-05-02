@@ -1,4 +1,31 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 466d6ec592656bb950a393fc1c7a5d5ff4cf3455
+      hash: 1695dc98926687b26b0ad531722162bfa2871df4
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 466d6ec592656bb950a393fc1c7a5d5ff4cf3455
+        changelog-entry: Update balena-yocto-scripts to 466d6ec592656bb950a393fc1c7a5d5ff4cf3455
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "balena-deploy: deploy usbboot if available"
+              hash: a62a90bcf05fdccc9cdbaa9961d2db823bbeb9b5
+              body: |
+                This is where the RPI family deploys provisioning artifacts.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: balena-yocto-scripts-1.21.10
+          title: ""
+          date: 2024-05-02T09:18:16.451Z
+  version: 5.1.54+rev12
+  title: ""
+  date: 2024-05-02T12:16:01.902Z
+- commits:
     - subject: Update balena-yocto-scripts to 019219edcbd508bdb1027bf56f20f8696fddba83
       hash: f58b136ff8c72d11f4c645dac1c01bafd754112f
       body: Update balena-yocto-scripts
