@@ -13,6 +13,7 @@
 [submodule "layers/meta-rockchip"]
 	path = layers/meta-rockchip
 	url = https://github.com/JeffyCN/meta-rockchip.git
+	branch = dunfell
 [submodule "layers/poky"]
 	path = layers/poky
 	url = https://github.com/balena-os/poky
